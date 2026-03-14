@@ -69,8 +69,7 @@ The dataset contains patient hospitalization records including:
   length_of_stay           Duration of hospital stay
   readmission_risk_score   Estimated risk score
   label                    Target variable (0 = No Readmission, 1 = Readmission)
-
-------------------------------------------------------------------------
+  
 
 # 🧠 Machine Learning Model
 
