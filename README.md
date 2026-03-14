@@ -60,16 +60,15 @@ Provides visual insights including:
 
 The dataset contains patient hospitalization records including:
 
-  Feature                  Description
-  ------------------------ -------------------------------------------------------
-  age                      Patient age
-  comorbidities_count      Number of chronic diseases
-  prev_readmissions        Previous hospital readmissions
-  medications_count        Number of medications
-  length_of_stay           Duration of hospital stay
-  readmission_risk_score   Estimated risk score
-  label                    Target variable (0 = No Readmission, 1 = Readmission)
-  
+| Feature | Description |
+|--------|-------------|
+| age | Patient age in years |
+| comorbidities_count | Number of chronic diseases or medical conditions the patient has |
+| prev_readmissions | Number of previous hospital readmissions |
+| medications_count | Total number of medications prescribed to the patient |
+| length_of_stay | Duration of hospital stay in days |
+| readmission_risk_score | Pre-calculated risk score estimating likelihood of readmission |
+| label | Target variable (0 = No Readmission, 1 = Readmission) |
 
 # 🧠 Machine Learning Model
 
